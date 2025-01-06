@@ -19,7 +19,7 @@ terraform {
     skip_requesting_account_id  = true # необходимая опция при описании бэкенда для Terraform версии 1.6.1 и старше.
     skip_s3_checksum            = true # необходимая опция при описании бэкенда для Terraform версии 1.6.3 и старше.
   }
-  required_version = ">=1.9"
+  required_version = "~> 1.0"
 }
 
 provider "yandex" {
